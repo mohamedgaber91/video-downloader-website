@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mohamedgaber91.github.io/video-downloader-website/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
@@ -19,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
