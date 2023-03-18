@@ -1,0 +1,11 @@
+.our-nav{
+background-color: #263a52;
+text-align: center;
+}
+.our-nav .nav-content h1{
+font-size: 35px;
+color: white;
+text-transform: capitalize;
+font-weight: bold;
+padding: 30px;
+}
