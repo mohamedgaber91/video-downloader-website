@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/video-downloader-website/static/css/main.3a8ab29d.css",
+    "main.js": "/video-downloader-website/static/js/main.53c877bb.js",
+    "static/js/787.28cb0dcd.chunk.js": "/video-downloader-website/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/video-downloader-website/index.html",
+    "main.3a8ab29d.css.map": "/video-downloader-website/static/css/main.3a8ab29d.css.map",
+    "main.53c877bb.js.map": "/video-downloader-website/static/js/main.53c877bb.js.map",
+    "787.28cb0dcd.chunk.js.map": "/video-downloader-website/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a8ab29d.css",
+    "static/js/main.53c877bb.js"
+  ]
+}
