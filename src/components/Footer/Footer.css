@@ -1,0 +1,12 @@
+.our-footer{
+    background-color: #263a52;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+.our-footer .footer-content h3{
+    padding: 20px;
+    font-size: 20px;
+}

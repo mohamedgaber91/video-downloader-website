@@ -1,0 +1,86 @@
+:root{
+    --main-color:#263a52;
+    --main-transition:0.5s
+}
+
+
+#download{
+    display: none;
+}
+.home-content {
+    margin-top: 71px;
+    
+}
+input#search {
+    border: 3px solid #263a52;
+}
+.btn-style{
+    background-color: #263a52;
+    border: none;
+    margin: 10px;
+    color: white;
+    width: 256px;
+    transition: var(--main-transition);
+    height: 51px;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.btn-style:hover{
+    background-color: white;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+.btns{
+    margin-top: 156px;
+}
+.btn-download{
+    background-color: white;
+    border: 1px solid var(--main-color);
+    transition: var(--main-transition);
+    border-radius: 10px;
+    white-space: nowrap;
+    
+}
+.btn-download:hover{
+    background-color: var(--main-color);
+    border: none;
+   
+}
+.btn-download:hover a{
+   color: white;
+   
+}
+.btn-download a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--main-color);
+    
+}
+.download-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 10px;
+}
+@media (max-width:500) {
+    .download-content{
+        display: block;
+    }
+}
+.info{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.info h3{
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+.info img{
+    width: 250px;
+    margin-top: 40px;
+}
+.icon{
+    font-size: 25px;
+    margin: 5px;
+    color: #263a52;
+}
